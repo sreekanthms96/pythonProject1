@@ -12,3 +12,4 @@ print(a[52])
 #to print word from 49 to 79 we use 49:79 commands
 
 print(a[49:79])
+
