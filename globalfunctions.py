@@ -1,10 +1,11 @@
-value = 10
+value = 10 #global variable
 def sample():
     print("The provided value is " +str(value))
 sample()
 print(value)
 
-
+s=value+1 #this will add value from global variable
+print(s)
 
 #trying local and global variable with similar name
 
