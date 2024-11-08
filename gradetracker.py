@@ -20,6 +20,4 @@ x.show_name()
 x.show_rollnumber()
 x.show_grade()
 
-
-
-        
+class     
