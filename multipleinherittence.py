@@ -13,3 +13,8 @@ x = Third()
 
 x.display()
 x.display_Third()
+
+print(Third.mro()) #defines the order in which classes are accessed when searching for a method or attribute in the context of inheritance (method resolution order). example shown below:
+
+#[<class '__main__.Third'>, <class '__main__.Second'>, <class '__main__.First'>, <class 'object'>]
+
